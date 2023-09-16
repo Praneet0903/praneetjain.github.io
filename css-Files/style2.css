@@ -1,0 +1,137 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.4rem;
+}
+
+ul{
+    display: flex;
+}
+
+.nav li{
+    padding: 20px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.navbar{
+    background-color:white;
+}
+.burger{
+    display: none;
+}
+.main::before{
+    content: "";
+    background:url("../myImgs/bg3.jpg") no-repeat center center/cover;
+    position: absolute;
+    height:115%;
+    width:100%;
+    top:0px;
+    left:0px;
+    z-index: -1;
+    opacity: .8;
+}
+.main{
+    width: 100%;
+}
+
+h1{
+    font-size: 4rem;
+}
+h3{
+    font-size: 2rem;
+}
+.innerMain{
+    width: 100%;
+    display: flex;
+    /* height: 500px; */
+}
+
+.container{
+    
+    height: 420px;
+}
+#myName{
+    margin: 0px 15px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    height: 165px;
+}
+
+#myName{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgb(219, 217, 217);
+}
+
+#myImg{
+    width: 30%;
+    margin: 15px;
+}
+#myImg img{
+    width: 100%;
+    height: 100%;
+    border: solid 2px rgb(61, 202, 190);
+    border-radius: 15px;
+    box-shadow: 7px 7px 3px 2px rgb(61, 202, 190);
+    
+}
+#about{
+    margin: 15px;
+    width: 66%;
+    color: white;
+    border: solid 2px rgb(12, 158, 188);
+    border-radius: 15px;
+    box-shadow: 7px 7px 3px 2px rgb(61, 202, 190);
+}
+
+footer{
+    background-color: black;
+    /* margin: 0px 15px; */
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    margin-left:15px;
+    margin-right:15px;
+    border-radius: 10px;
+}
+.logo img:hover{
+    cursor: pointer;
+}
+#myImg:hover{
+    cursor: pointer;
+}
+
+#about{
+    font-size: 2rem;
+}
+#title{
+    text-align: center;  
+    padding:10px 0px;
+}
+#para{
+    text-align: center;  
+    padding: 10px 5px;
+}
+#ps{
+    text-align: center;  
+    padding: 10px 5px;
+    
+}

@@ -1,0 +1,11 @@
+#about{
+    font-size: 1.5rem;
+}
+
+#myImg img{
+    height: auto;
+}
+
+.main::before{
+    height: 115%;
+}

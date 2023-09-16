@@ -1,0 +1,80 @@
+.innerMain{
+    width: 100%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    /* height: 500px; */
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+.navbar ul{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;    
+}
+
+.burger{
+    display: block;
+    position: absolute;
+    right: 5%;
+    top:5px;
+    cursor: pointer;
+}
+
+.burger img{
+    width: 50px;
+    height: 40px;
+}
+.nav li{
+    padding:5px;
+}   
+
+
+.h-nav{
+    height:50px;
+}
+.v-class{
+    opacity:0;
+}
+#myImg{
+    width: 70%;
+    height: auto;
+}
+
+#about{
+    width: 100%;
+    font-size: 1.05rem;
+    height: auto;
+}
+
+.main::before{
+    height: 175%;
+}
+
+footer{
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#btech{
+    display: none;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+#myName{
+    height:120px;
+}
+

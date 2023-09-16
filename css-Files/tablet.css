@@ -1,0 +1,27 @@
+
+#box1{  
+    width: 100%;
+    grid-area: box1;
+}
+#box2{
+    grid-area: box2;
+    margin-right: 15px;
+}
+#box3{
+    margin-left: 15px;
+    grid-area: box3;
+}
+.main{
+    display: grid;
+    grid-template-areas:
+    "box1 box1"
+    "box2 box3" ;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 350px;
+    margin: 20px 0px;
+}
+ 
